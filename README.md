@@ -18,7 +18,7 @@ Use this repo as the starting point for the Twitter clone project:
 * The Retweets/timestamp/Reply areas should also be hidden by default. These should only expand if you click on the tweet. Have the students use a jQuery animation to accomplish the reveal, similar to how it’s done on Twitter.com
 
 ### ADVANCED: (Black Diamond) ###
-* Make timestamps similar to how they look on Twitter (1h, 18m, 1m) and use the jQuery timeago plugin to make them automatic.
+* Make timestamps similar to how they look on Twitter (1h, 18m, 1m) and use the jQuery time ago plugin to make them automatic.
 * Implement the icons for when a tweet is favorited/retweeted in the upper right of the tweet.
 * Implement the Bootstrap tooltips for when you hover over a user’s avatar image
 * Persist new tweets using local storage
