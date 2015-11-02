@@ -1,4 +1,17 @@
+Parse.initialize("bBUh43xDIZWLF6a8TgrYwCwRu11pIvIUJnoxu3lt", "w9XPjTNpZluYKY0hsiqPiE6OTfhAM3mBMA5PRKLw");
 $(document).ready(function(){
+  var datas = new Parse.Query('Teet');
+  var teet = datas.get('kCUYSnMeOL', {
+  success: function(data) {
+    return data;
+  },
+  error: function(object, error) {
+    // The object was not retrieved successfully.
+    // error is a Parse.Error with an error code and message.
+    console.log('wtf man');
+  }
+});
+console.log(teet);
   var chars = 140,
       user = $('#theusername').text() + ' ',
       useravatar = $('#useravatar').attr('src'),
